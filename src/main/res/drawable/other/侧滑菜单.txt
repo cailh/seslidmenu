@@ -1,0 +1,8 @@
+一般的侧滑：
+ViewGroup Menu+Content
+OntouchEvent
+
+二
+利用HorizontalScrollView：内部只能有一个控件
+
+

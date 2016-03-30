@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:my="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+<googleplay.xiaokai.com.qq.SlidMenu
+    android:id="@+id/horscrview"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_frame_background"
+    android:scrollbars="none"
+    my:RithtPadding="100dp"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+        <include layout="@layout/left_menulayout"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/qq"
+            android:orientation="vertical"
+            >
+            <Button
+                android:onClick="toggle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="开关"
+                ></Button>
+        </LinearLayout>
+    </LinearLayout>
+</googleplay.xiaokai.com.qq.SlidMenu>
+
+</LinearLayout>
